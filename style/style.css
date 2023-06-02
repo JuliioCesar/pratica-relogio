@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-image: url(../image/imagem-ilustrativa.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav > h1 {
+    font-size: 2.0em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #504848;
+}
+
+.section-height{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-height > h2{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #313A45;
+
+}
+.container-relogio > div{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-relogio h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 140px;
+    height: 150px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #191B1F;
+    border-radius: 5px;
+}
+.container-relogio p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #9A9B9D;
+
+}
